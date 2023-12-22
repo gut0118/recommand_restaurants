@@ -27,7 +27,7 @@ button_style = """
     </style>
     """
 
-uploaded_file = "./restaurant_list/restaurants_temp.csv"
+uploaded_file = "./restaurants_temp.csv"
 
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
