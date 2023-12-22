@@ -27,7 +27,7 @@ button_style = """
     </style>
     """
 
-uploaded_file = "./restaurants.csv"
+uploaded_file = "./restaurant_list/restaurants_temp.csv"
 
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
@@ -37,9 +37,14 @@ if uploaded_file is not None:
     option_exploration = st.selectbox("새로운 곳에 대한 가중치", ["평균값", "평균값*1.5", "평균값*0.7", "최대값", "최대값*1.3"])
 
     # type_distance = list(data["도보거리"].unique()) # 도보 3분, 5분, 10분, 20분
-    type_recommender = list(data["추천인"].unique())
-    type_fresh = list(data["미방문"].unique()) # 미방문 1, 방문 0
+    # type_recommender = list(data["추천인"].unique())
+    type_recommender = ["김태훈", "윤상혁", "이광현", "이주원", "최희수"] 
+    # type_fresh = list(data["미방문"].unique()) # 미방문 1, 방문 0
+    type_fresh = ["N", "Y"] # 0: N,  1: Y
 
+    st.write("")
+    st.subheader("참석자")
+    option_present = st.multiselect('오늘 점심 같이 먹을 사람은....', type_recommender, type_recommender)
     st.write("")
     st.subheader("허용거리")
     option_distance = st.multiselect('너무 오래 걸리면 힘들어... 몇분까지 걸을수 있어?', [1, 3, 5, 10, 15, 20])
@@ -70,14 +75,18 @@ if uploaded_file is not None:
     data['최종가중치'].fillna(exploration, inplace=True)
 
     # 음식종류 필터링
+    data = data[data[option_present].eq('O').all(axis=1)]
+
     if option_distance:
         data = data[data['도보거리'] <= max(option_distance)]
+
     if option_recommender:
         data = data[data['추천인'].isin(option_recommender)]
+
     if option_fresh:
         data = data[data['미방문'].isin(option_fresh)]
 
-    st.write(data)
+    st.write(data.drop(columns=["링크"]))
 
     st.markdown(button_style, unsafe_allow_html=True) # CSS 스타일 적용
 
@@ -91,4 +100,3 @@ if uploaded_file is not None:
             # st.write("Combining **bold and :green[colored text] is totally** fine! Just like with other markdown features.")
             url = chosen_row.iloc[0]['링크']
             st.markdown(f"[{chosen_row.iloc[0]['식당명']} 방문하기]({url})", unsafe_allow_html=True)
-
