@@ -32,11 +32,12 @@
 오부찌,최희수,11,N,0.05,https://naver.me/FwS73apN,O,O,O,O,O
 맘스터치 강남대성학원점,최희수,10,Y,0.05,https://naver.me/GOuzPKLV,O,O,O,O,O
 파파이스 강남점,최희수,2,Y,0.05,https://naver.me/5BkvQbxc,O,O,O,O,O
-에그드랍,김태훈,8,N,0.1,https://naver.me/5tjeIgmQ,O,O,O,O,O
-전주현대옥,김태훈,6,N,0.1,https://naver.me/x7vr1i6u,O,O,O,O,O
+에그드랍,김태훈,8,N,0.01,https://naver.me/5tjeIgmQ,O,O,O,O,O
+전주현대옥,김태훈,6,N,0.01,https://naver.me/x7vr1i6u,O,O,O,O,O
+스시어부,김태훈,5,N,0.08,https://naver.me/506bIjIl,O,O,O,O,O
 고부김밥,김태훈,1,N,0.8,https://naver.me/GMRk30jc,O,O,O,O,O
 참치공방,이주원,8,N,0.227272727,"https://map.naver.com/p/entry/place/87710088?c=19.41,0,0,0,dh",O,O,O,O,O
-중경마라탕,이주원,9,N,0.045454545,"https://map.naver.com/p/entry/place/1382405932?c=20.00,0,0,0,dh",O,O,O,O,O
+중경마라탕,이주원,9,N,0.045454545,"https://map.naver.com/p/entry/place/1382405932?c=20.00,0,0,0,dh",O,O,O,O,X
 옛터,이주원,2,N,0.022727273,"https://map.naver.com/p/search/%EC%9D%8C%EC%8B%9D%EC%A0%90/place/13319050?c=20.00,0,0,0,dh&placePath=%3Fentry%3Dbmp",O,O,O,O,O
 뱅뱅막국수,이주원,9,Y,,"https://map.naver.com/p/entry/place/33964233?c=20.00,0,0,0,dh",O,O,O,O,O
 명정루,이주원,,N,0.045454545,"https://map.naver.com/p/search/%EC%A7%9C%EC%9E%A5%EB%A9%B4/place/1583880509?c=17.95,0,0,0,dh&placePath=%3Fentry%3Dbmp",O,O,O,O,O
@@ -49,3 +50,21 @@
 맘스터치,이주원,10,Y,,"https://map.naver.com/p/search/%EB%A7%98%EC%8A%A4%ED%84%B0%EC%B9%98/place/1970333505?c=14.44,0,0,0,dh&placePath=%3Fentry%3Dbmp",O,O,O,O,O
 크라이치즈버거,이주원,13,Y,,"https://map.naver.com/p/entry/place/1268364419?c=20.00,0,0,0,dh",O,O,O,O,O
 왓쇼이켄,이주원,8,N,0.068181818,"https://map.naver.com/p/entry/place/38643764?c=19.26,0,0,0,dh",O,O,O,O,O
+이조불쭈꾸미,이광현,2,N,0.05,https://naver.me/5qAm31Gy,O,O,O,O,X
+시원한대구탕,이광현,9,N,0.05,https://naver.me/GcjWlUhj,O,O,O,O,O
+아워홈,이광현,6,N,0.05,https://naver.me/IDBgX6xR,O,O,O,O,O
+옛터,이광현,1,N,0.05,https://naver.me/5lZCPaSi,O,O,O,O,O
+초선과여포,이광현,4,N,0.05,"https://map.naver.com/p/search/%EC%B4%88%EC%84%A0%EA%B3%BC%EC%97%AC%ED%8F%AC?c=15.00,0,0,0,dh",O,O,O,O,O
+임병주산동칼국수,이광현,17,N,0.05,"https://map.naver.com/p/entry/place/1420055829?c=17.13,0,0,0,dh",O,O,O,O,O
+명정루 양재,이광현,15,N,0.05,"https://map.naver.com/p/entry/place/1583880509?c=20.00,0,0,0,dh",O,O,O,O,O
+뱅뱅막국수,이광현,9,N,0.05,"https://map.naver.com/p/entry/place/33964233?c=17.00,0,0,0,dh",O,O,O,O,O
+쿠차라,이광현,10,N,0.05,"https://map.naver.com/p/entry/place/1682924620?c=15.89,0,0,0,dh",O,O,O,O,O
+버드나무집,이광현,6,N,0.05,"https://map.naver.com/p/entry/place/11627634?c=16.00,0,0,0,dh",O,O,O,O,O
+조순금닭도리탕,이광현,7,N,0.05,"https://map.naver.com/p/entry/place/1071467533?c=16.68,0,0,0,dh",O,O,O,O,X
+쳥년감자탕 강남역점,이광현,9,Y,0.05,"https://map.naver.com/p/entry/place/1680724540?c=16.68,0,0,0,dh",O,O,O,O,O
+오무라안,이광현,11,N,0.05,"https://map.naver.com/p/entry/place/11679379?c=15.70,0,0,0,dh",O,O,O,O,O
+은이네해장국,이광현,15,N,0.05,제주은희네해장국 강남역점 - 네이버 지도 (naver.com),O,O,O,O,O
+1992 덮밥& 짜글이 강남본점,이광현,10,Y,0.05,1992 덮밥&짜글이 강남본점 - 네이버 지도 (naver.com),O,O,O,O,O
+우동명가기리야마본진,이광현,12,Y,0.1,우동명가기리야마본진 - 네이버 지도 (naver.com),O,O,O,O,O
+청간막국수,이광현,7,Y,0.1,"https://map.naver.com/p/entry/place/1655094810?c=18.76,0,0,0,dh",O,O,O,O,O
+부산아지매국밥 뱅뱅사거리,이광현,4,N,0.05,"https://map.naver.com/p/entry/place/37746109?c=18.10,0,0,0,dh",O,O,O,O,O
